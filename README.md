@@ -1,1 +1,4 @@
-# Pi_intheSky
+# Pi in the Sky
+
+## Project Proposal
+
