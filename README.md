@@ -13,11 +13,13 @@ Make a sound or do something when it thinks it's at the apex of its flight.
 
 #### Stuff
 
-releases tiny person when altimeter value begins to decrease
+releases glitter when altimeter value begins to decrease
 
 will be launched by: catapult?
 
 shape: sphere? rocket? 
+
+inside of sphere 6in diameter
 breaks in half
 
 https://github.com/adafruit/Adafruit_MPL3115A2_Library/blob/master/examples/testmpl3115a2/testmpl3115a2.ino
