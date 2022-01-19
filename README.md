@@ -43,6 +43,7 @@ https://github.com/adafruit/Adafruit_MPL3115A2_Library/blob/master/examples/test
 - Bottom half of the sphere; 3D printed, not identical to top half 
 - 2 hinges; 3D printed, for the doors to open
 - 2 doors; 3D printed, rounded, part of the bottom half
+- Servo arms; 3D printed
 
 *Screws and nuts not included 
 
