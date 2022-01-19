@@ -29,7 +29,7 @@ The servos are going to move at the apex in order to open up the sphere [see CAD
 
 https://github.com/adafruit/Adafruit_MPL3115A2_Library/blob/master/examples/testmpl3115a2/testmpl3115a2.ino
 
-#### CAD
+### CAD
 
 #### Parts*
 
