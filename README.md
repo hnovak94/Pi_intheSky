@@ -21,9 +21,9 @@ The sphere will be launched into the air. When it reaches the apex of its flight
 #### Parts
 
 - Raspberry Pi
-- Altimeter (barometer) MPL3115A2
+- Altimeter (barometer) MPL3115A2; [starter code](https://github.com/adafruit/Adafruit_MPL3115A2_Library/blob/master/examples/testmpl3115a2/testmpl3115a2.ino)
 - Pi Camera 
-- 2 Continuous Servos; FS90R
+- 2 Servos SG92R; [library](https://gpiozero.readthedocs.io/en/stable/installing.html); [starter code](https://gpiozero.readthedocs.io/en/stable/api_output.html)
 
 <b> What it does:</b> When the value read by the altimeter begins to drop the camera will take a picture and the servos will move.
 
@@ -31,8 +31,6 @@ The apex will be determined using an array. Every time the altimeter returns a v
 
 The servos are going to move at the apex in order to open up the sphere [see CAD], the angle of which will have to be determined through trial and error. 
 
-
-https://github.com/adafruit/Adafruit_MPL3115A2_Library/blob/master/examples/testmpl3115a2/testmpl3115a2.ino
 
 ### CAD
 
