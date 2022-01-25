@@ -49,4 +49,6 @@ https://github.com/adafruit/Adafruit_MPL3115A2_Library/blob/master/examples/test
 
 #### Initial Sketches and Design
 
+<img src="https://github.com/hnovak94/Pi_intheSky/blob/main/media/gb_sketch.jpg" height="250">
+
 
