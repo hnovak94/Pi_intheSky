@@ -18,13 +18,13 @@ while True:
 	# altitude is the diff between initial alt and current alt
 	alt.append(altitude)
 	# add latest data to alt array
-
 	print(alt) # print array
-	print(alt[0]) # print first altitude
 
-	if altitude < alt[-5] # if current altitude is less than before
-	#	print("apex") # will later be servos
-	time.sleep(1.0)
+	print(alt[0]) # print first altitude
+	if len(alt) >= 5: 
+		if altitude < alt[-5]: # if current altitude is less than before
+			print("apex") # will later be servos
+			time.sleep(1.0)
 	
 
 
