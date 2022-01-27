@@ -4,6 +4,7 @@ from time import sleep
 myGPIO = 18
 
 # fixes servo range to be full 180 degrees
+# tutorial: https://www.raspberrypi-spy.co.uk/2018/02/basic-servo-use-with-the-raspberry-pi/
 correction = 0.45
 maxPW = (2.0 + correction)/1000
 minPW = (1.0 - correction)/1000
