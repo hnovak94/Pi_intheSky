@@ -21,7 +21,7 @@ while True:
 	print(alt) # print array
 
 	print(alt[0]) # print first altitude
-	if len(alt) >= 5: 
+	if len(alt) > 5: # if length of array is greater than 5
 		if altitude < alt[-5]: # if current altitude is less than before
 			print("apex") # will later be servos
 			time.sleep(1.0)
