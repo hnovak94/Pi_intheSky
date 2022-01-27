@@ -18,6 +18,8 @@ The sphere will be launched into the air. When it reaches the apex of its flight
 
 ### Code
 
+[Readme](https://github.com/hnovak94/Pi_intheSky/blob/main/code/README.md)
+
 #### Parts
 
 - Raspberry Pi
