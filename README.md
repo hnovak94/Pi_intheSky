@@ -16,6 +16,12 @@ Make a sound or do something when it thinks it's at the apex of its flight.
 
 The sphere will be launched into the air. When it reaches the apex of its flight, doors on the bottom will open via servos, and glitter will come out. A camera will take the picture as the glitter is released. 
 
+### Problems
+
+How will the doors close back up again?
+
+How will the two halves of the sphere be attached?
+
 ### Code
 
 [Readme](https://github.com/hnovak94/Pi_intheSky/blob/main/code/README.md)
@@ -27,11 +33,15 @@ The sphere will be launched into the air. When it reaches the apex of its flight
 - Pi Camera 
 - 2 Servos SG92R; [library](https://gpiozero.readthedocs.io/en/stable/installing.html); [starter code](https://gpiozero.readthedocs.io/en/stable/api_output.html)
 
-<b> What it does:</b> When the value read by the altimeter begins to drop the camera will take a picture and the servos will move.
+<b> What it does:</b> When the value read by the altimeter begins to drop the bottom half of the sphere opens (controlled by servos) and the camera will take a picture. 
 
-The apex will be determined using an array. Every time the altimeter returns a value it will be added to the array. When the current value is less than an older value in the array (maybe 5 values ago), then x will happen. 
+The apex will be determined using an array. An itial value for the altimeter will become 'zero'. Every time the altimeter returns a value, the code will find the difference between the current value and the zero value. That difference will be added to the array. When the most recent array value is less than an older value in the array (maybe 5 values ago), then x will happen. 
 
-The servos are going to move at the apex in order to open up the sphere [see CAD], the angle of which will have to be determined through trial and error. 
+The servos are going to move at the apex in order to open up the sphere [see CAD], the angle of which will have to be determined through trial and error--likely around 180 degrees. The camera will be fitted into a piece of acryllic in the center of the sphere. 
+
+* Initial altimeter code: [alt.py](https://github.com/hnovak94/Pi_intheSky/blob/main/code/alt.py)
+* Initial servo code: [servoAlt.py](https://github.com/hnovak94/Pi_intheSky/blob/main/code/servoAlt.py)
+* Initial camera code: [altCam.py](https://github.com/hnovak94/Pi_intheSky/blob/main/code/altCam.py)
 
 
 ### CAD
@@ -44,6 +54,7 @@ The servos are going to move at the apex in order to open up the sphere [see CAD
 - 2 hinges; 3D printed, for the doors to open
 - 2 doors; 3D printed, rounded, part of the bottom half
 - Servo arms; 3D printed
+- Glitter (not in CAD)
 
 *Screws and nuts not included 
 
