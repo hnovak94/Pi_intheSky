@@ -20,7 +20,8 @@ The sphere will be launched into the air. When it reaches the apex of its flight
 
 <b>How will the doors close back up again?</b>
 
-- try and glue the servo arm to the door, servo moves forward: opens, servo goes back: closes
+- try and glue the servo arm to the door, servo moves forward: opens, servo goes back: closes; twitchy servo is another potential problem
+
 
 <b>How will the two halves of the sphere be attached?</b>
 
