@@ -23,7 +23,7 @@ alt = [] # array for altitude values
 lv = sensor.altitude # initial value; zeroes it; 'launch value'
 
 while True:
-	altitude = sensor.altitude - lv 
+	altitude = sensor.altitude - lv
         # altitude is the diff between initial alt and current alt
 	alt.append(altitude)
         # add latest data to alt array
@@ -32,8 +32,9 @@ while True:
 	print(alt[0]) # print first altitude
 
 	if len(alt) > 5: # if length of array is greater than 5
-		if max(alt) - altitude > 1: # if current altitude is less than $
-			print("apex") # will later be servos
+		if max(alt) - altitude > 1: 
+		# if diff between max alt and current alt is greater than 1
+			print("apex")
 
-			servo.max()
+			servo.max() # servo moves 180 degrees
 			time.sleep(0.5)
