@@ -60,6 +60,6 @@ The servos are going to move at the apex in order to open up the sphere [see CAD
 
 #### Initial Sketches and Design
 
-<img src="https://github.com/hnovak94/Pi_intheSky/blob/main/media/gb_sketch.jpg" height="250">
+<img src="https://github.com/hnovak94/Pi_intheSky/blob/main/media/gb_sketch.jpg" height="250"><img src="https://github.com/hnovak94/Pi_intheSky/blob/main/media/gb.capt.PNG" height="250">
 
 
