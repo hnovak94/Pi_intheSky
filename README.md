@@ -16,6 +16,10 @@ Make a sound or do something when it thinks it's at the apex of its flight.
 
 The sphere will be launched into the air. When it reaches the apex of its flight, doors on the bottom will open via servos, and glitter will come out. A camera will take the picture as the glitter is released. 
 
+### Timeline
+
+[Trello board](https://trello.com/b/a8ER8wLp/pi-in-the-sky)
+
 ### Problems
 
 <b>How will the doors close back up again?</b>
