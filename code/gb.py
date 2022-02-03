@@ -1,4 +1,4 @@
-import time
+from time import sleep
 import board
 import adafruit_mpl3115a2
 from gpiozero import Servo
@@ -19,6 +19,7 @@ servo2 = Servo(myGPIO2, min_pulse_width = minPW, max_pulse_width = maxPW)
 i2c = board.I2C()
 sensor = adafruit_mpl3115a2.MPL3115A2(i2c)
 
+# check current air pressure in pascals:
 sensor.sealevel_pressure = 102574
 time.sleep(0.5)
 
@@ -38,20 +39,23 @@ while True:
 		if max(alt) - altitude > 1: 
 		# if diff between max alt and current alt is greater than 1
 			print("apex")
-
+			
+			# open doors
 			servo1.max() # servos move 180 degrees
-      servo2.max()
-			time.sleep(0.5)
-      
-      with picamera.PiCamera() as camera:
+      			servo2.max()
+			sleep(0.5)
+			
+      			# take picture 
+      			with picamera.PiCamera() as camera:
         			camera.resolution = (1024, 768) # res
         			camera.start_preview()
-        			sleep(1)
+        			sleep(0.1)
         			print("running")
-        			camera.capture('../media/altcam.png')
+        			camera.capture('../media/bomb.png')
         			print("done")
 				sleep(1.0)
-        
-        servo1.min()
-        servo2.min()
-        time.sleep(0.5)
+				
+        		# close doors
+        		servo1.min()
+        		servo2.min()
+        		sleep(0.5)
