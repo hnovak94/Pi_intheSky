@@ -7,7 +7,7 @@
 - holes: 18.85 x 10.39
 - camera: 18.4 x 18.45
 - 17.4 mm 
-
+<img src="https://github.com/hnovak94/Pi_intheSky/blob/main/media/cammeasurements.png" height="250">
 <b>Raspberry Pi:</b> 
 
 - horizontal: edges of holes 55.5 mm apart
