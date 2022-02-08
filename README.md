@@ -31,7 +31,9 @@ The sphere will be launched into the air. When it reaches the apex of its flight
 
 - rounded hinges (see CAD)
 
+### Risk Mitigation
 
+We, and everyone else in the area, will wear safety goggles and stay out of the way since glitter will be flying through the air and the ball could theoretically hit someone on the head and kill them, or at the very least seriously injure them. 
 
 ### Code
 
