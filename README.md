@@ -20,6 +20,19 @@ The sphere will be launched into the air. When it reaches the apex of its flight
 
 [Trello board](https://trello.com/b/a8ER8wLp/pi-in-the-sky)
 
+2/14 week: finish initial cad design
+
+2/21 week: print parts start putting code together with initial cad
+
+2/28 week: working together start making changes 
+
+3/07 week: keep making changes to code and cad 
+
+3/14 week: continue editing and making changes 
+
+after: if design is finished and working design a way to launch 
+
+
 ### Problems
 
 <b>How will the doors close back up again?</b>
