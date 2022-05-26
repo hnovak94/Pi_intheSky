@@ -44,6 +44,19 @@ if len(alt) > 5: # if length of array is greater than 5
 			print("apex") # will later be servos
 			time.sleep(0.5)
 ```
+## Camera
+
+The camera code was very simple, the important thing is to tell the pi where to save the picture. 
+```
+with picamera.PiCamera() as camera:
+        camera.resolution = (1024, 768) # res
+        camera.start_preview()
+        sleep(1)
+        print("running")
+        camera.capture('../media/altcam.png')
+        print("done")
+	sleep(1.0)
+```
 ## Final Code
 * [code](https://github.com/hnovak94/Pi_intheSky/blob/main/code/gb.py)
 
