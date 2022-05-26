@@ -32,4 +32,6 @@ The servo arm has three parts: the servo horn, an acryllic arm (bottom left), an
 
 <img src="https://github.com/hnovak94/Pi_intheSky/blob/main/media/p1.3.PNG" height="100"><img src="https://github.com/hnovak94/Pi_intheSky/blob/main/media/p1.4.PNG" height="100">
 
-<b>Possible Solutions:</b>
+We tried to glue the arm in place where the shell arm meets the hinge arm. We also had to screw the servo arm to the servo, because otherwise there was too much torque. 
+
+
