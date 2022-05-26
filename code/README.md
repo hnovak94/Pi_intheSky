@@ -26,7 +26,7 @@ Servo code would not work. Below shows troubleshooting process. When we attempte
 
 <img src="https://github.com/hnovak94/Pi_intheSky/blob/main/media/IMG-8529.jpg" height="350">
 
-Replacing the servos did not seem to be the problem. 
+Replacing the servos did not seem to be the problem. As shown above, we checked the wiring and tried changing the pin number. 
 
 ## Altimeter
 * [altimeter code](https://github.com/hnovak94/Pi_intheSky/blob/main/code/alt.py)
