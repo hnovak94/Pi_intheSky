@@ -2,6 +2,8 @@
 
 ## Wiring
 
+### Wiring Diagram
+
 <img src="https://github.com/hnovak94/Pi_intheSky/blob/main/media/IMG-8581.jpg" height="250"> 
 
 <img src="https://github.com/hnovak94/Pi_intheSky/blob/main/media/IMG-8584.jpg" height="300"><img src="https://github.com/hnovak94/Pi_intheSky/blob/main/media/IMG-8582.jpg" height="300"><img src="https://github.com/hnovak94/Pi_intheSky/blob/main/media/IMG-8583.jpg" height="300">
@@ -34,6 +36,13 @@ This code was fairly straightforward and ended up being the simplest part of the
 ```
 altitude = sensor.altitude - lv 
 
+```
+Below is the code for determining the apex of the flight:
+```
+if len(alt) > 5: # if length of array is greater than 5
+		if max(alt) - altitude > 1: # if current altitude is less than before
+			print("apex") # will later be servos
+			time.sleep(0.5)
 ```
 ## Final Code
 * [code](https://github.com/hnovak94/Pi_intheSky/blob/main/code/gb.py)
