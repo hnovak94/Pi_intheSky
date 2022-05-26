@@ -1,5 +1,8 @@
 # Code
 
+## Wiring
+
+<img src="https://github.com/hnovak94/Pi_intheSky/blob/main/media/IMG-8581.jpg" height="250">
 
 ## Servos
 * [gpiozero library](https://gpiozero.readthedocs.io/en/stable/installing.html)
