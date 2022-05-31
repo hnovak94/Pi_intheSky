@@ -33,5 +33,13 @@ The servo arm has three parts: the servo horn, an acryllic arm (bottom left), an
 <img src="https://github.com/hnovak94/Pi_intheSky/blob/main/media/p1.3.PNG" height="100"><img src="https://github.com/hnovak94/Pi_intheSky/blob/main/media/p1.4.PNG" height="100">
 
 We tried to glue the arm in place where the shell arm meets the hinge arm. We also had to screw the servo arm to the servo, because otherwise there was too much torque. 
+Rather than try and design a servo horn that would fit perfectly, we just drilled a hole into the existing servo horn to attach it to the hinge. 
 
+#### Top
+
+<img src="https://github.com/hnovak94/Pi_intheSky/blob/main/media/top1.PNG" height="250"><img src="https://github.com/hnovak94/Pi_intheSky/blob/main/media/top2.PNG" height="250">
+
+Because of limited space, everything had to be carefully spaced out. The diameter of the middle plate is 101.6mm or 6in. We used standoffs for the pi, the altimeter, and the battery so that the camera and servos could fit underneath. 
+
+The initial sizes of the holes were slightly too small, so we had to manually make them bigger with a drill, rather than reprint the middle plate. 
 
