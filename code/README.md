@@ -79,3 +79,5 @@ sleep(0.5)
 		sleep(1.0)
 ```
 The problems with this are not clear. The problem did not seem to be with the code or with the wiring. The raspberry pi had trouble running the servos, often only one would work at a time. When I tried to run the code through BeagleTerm, it would often crash and I would have to start over. This was a major obstacle that set us back weeks. The servos would work individually with the servoTest.py code, but as soon as it had to deal with two servos it wouldn't work.
+
+I got the battery to work with the pi, which made the two servos run at the same time. However, when I attempted to put the servos together with the altimeter the code overloaded the pi. 
